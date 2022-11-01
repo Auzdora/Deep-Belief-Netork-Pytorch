@@ -34,4 +34,5 @@ test_loader = torch.utils.data.DataLoader(
 
 
 rbm = RBM(784, 500, 5, 32, 1, lr=0.01)
+
 rbm.train(train_loader, test_loader)
