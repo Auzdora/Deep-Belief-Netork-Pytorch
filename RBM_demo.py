@@ -3,7 +3,7 @@
     All rights reserved
     Filename: RBM_demo.py
     Description: Demo of how to use RBM.
-    Created by Melrose-Lbt 2022-11-1
+    Created by Melrose-Lbt 2022-10-28
 """
 
 from RestrictedBoltzmanMachine import RBM
@@ -34,5 +34,4 @@ test_loader = torch.utils.data.DataLoader(
 
 
 rbm = RBM(784, 500, 5, 32, 1, lr=0.01)
-
 rbm.train(train_loader, test_loader)

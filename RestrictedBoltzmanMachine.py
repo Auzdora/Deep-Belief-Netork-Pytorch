@@ -3,7 +3,7 @@
     All rights reserved
     Filename: RestrictedBoltzmanMachine.py
     Description: Implementation for RBM from strach.
-    Created by Melrose-Lbt 2022-11-1
+    Created by Melrose-Lbt 2022-10-28
 """
 import torch
 import numpy as np
